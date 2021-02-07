@@ -35,10 +35,6 @@ public class Radio {
         return minVolume;
     }
 
-    public void setMinVolume(int minVolume) {
-        this.minVolume = minVolume;
-    }
-
     public int getMaxVolume() {
         return maxVolume;
     }
@@ -57,10 +53,6 @@ public class Radio {
 
     public int getMinChannel() {
         return minChannel;
-    }
-
-    public void setMinChannel(int minChannel) {
-        this.minChannel = minChannel;
     }
 
     public int getMaxChannel() {
@@ -85,9 +77,6 @@ public class Radio {
         this.currentChannel = currentChannel;
     }
 
-    public boolean isOn() {
-        return on;
-    }
 
     public void setOn(boolean on) {
         this.on = on;
